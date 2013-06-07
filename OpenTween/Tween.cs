@@ -2365,7 +2365,6 @@ namespace OpenTween
             _hisIdx = _history.Count - 1;
             if (!ToolStripFocusLockMenuItem.Checked)
                 ((Control)ListTab.SelectedTab.Tag).Focus();
-            StatusText.Focus(); // ステータスへフォーカス
             urlUndoBuffer = null;
             UrlUndoToolStripMenuItem.Enabled = false;  //Undoをできないように設定
         }
